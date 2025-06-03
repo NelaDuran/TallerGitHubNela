@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inventario de recurso humanos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <br>
+    <div class="container ">
+        <br>
+        <h2>Formulario de Inventario de Recurso Humanos</h2>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/img/h&m.jpg.png" class="img-fluid" width="200" height="200" id="image">
+            </div>
+
+            <div class="col-md-4">
+                <h3>PLANILLA DE INGRESO</h3>
+                <label for="date">Fecha de registro</label>
+                <input type="date" id="date">
+            </div>
+
+            <div class="col-md-4">
+                <img src="/img/mujer-removebg-preview.png" class="img-fluid" width="200" height="200" id="image">
+            </div>
+
+            <hr>
+
+            <h3>Datos generales del trabajador</h3>
+            <br>
+            <br>
+        </div>
+        <h3>Informacion personal</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="first-name">Primer nombre:</label>
+                <input type="text" id="name" name="name" required minlength="4" maxlength="30" class="form-control">
+            </div>
+
+            <div class="col-md-6">
+                <label for="second-name">Segundo nombre:</label>
+                <input type="text" id="last-name" name="last-name" required minlength="4" maxlength="30"
+                    class="form-control">
+            </div>
+
+            <div class="col-md-6">
+                <label for="last-name1">Primer apellido:</label>
+                <input type="text" id="dni" name="dni" required minlength="4" maxlength="30" class="form-control">
+                <br>
+            </div>
+
+            <div class="col-md-6">
+                <label for="last-name2">Segundo apellido:</label>
+                <input type="text" id="email" name="email" required minlength="4" maxlength="30" class="form-control">
+            </div>
+
+            <div class="col-md-12">
+                <label for="dni">Numero de identificacion:</label>
+                <input type="number" id="dni" name="dni" required minlength="4" maxlength="30" class="form-control">
+            </div>
+
+            <div class="col-md-6">
+                <label for="Date">Lugar y fecha de nacimiento:</label>
+                <input type="date" id="date" name="date" required minlength="4" maxlength="100" class="form-control">
+            </div>
+
+            <div class="col-md-6">
+                <label for="Date">Nacionalidad:</label>
+                <input type="date" id="date" name="date" required minlength="4" maxlength="100" class="form-control">
+                <br>
+            </div>
+
+            <div class="col-md-4">
+                <label for="Date">Sexo:</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecciona una opción</option>
+                    <option value="1">Femenino</option>
+                    <option value="2">Maculino</option>
+                    <option value="3">Otro</option>
+            </div>
+
+            <div class="col-md-4">
+                <label for="Date">Edad:</label>
+                <input type="number" id="date" name="date" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label for="text">Estado Civil:</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Selecciona una opción</option>
+                    <option value="1">Soltero</option>
+                    <option value="2">Casado</option>
+                    <option value="3">Union libre</option>
+                    <option value="3">Viudo(a)</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <label for="Direccion">Direccion de habitacion:</label>
+                <input type="direccion" id="date" name="date" required minlength="4" maxlength="100"
+                    class="form-control">
+
+            </div>
+            <hr>
+            <div class="col-md-6">
+                <label for="Date">Telefono habitación:</label>
+                <input type="number" id="date" name="date" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="Date">Telefono movil:</label>
+                <input type="number" id="date" name="date" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <h3>Información Familiar</h3>
+            <br>
+            <div class="col-md-6">
+                <label for="name">Nombre del padre:</label>
+                <input type="text" id="name" name="name" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="age">Edad del padre:</label>
+                <input type="number" id="age" name="age" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="name">Nombre de la madre:</label>
+                <input type="text" id="name" name="name" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <div class="col-md-6">
+                <label for="age">Edad de la madre:</label>
+                <input type="number" id="age" name="age" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <div class="col-md-12">
+                <label for="name">Nombre completo del conyuge:</label>
+                <input type="text" id="name" name="name" required minlength="4" maxlength="100" class="form-control">
+            </div>
+            <div class="col-md-12">
+                <label for="number">Numero de hijos:</label>
+                <input type="number" id="name" name="number" required minlength="4" maxlength="100"
+                    class="form-control">
+            </div>
+
+            <div class="col-md-6"><table class="table table-bordered">
+                <thead>
+                    <tr>
+
+                        <th scope="col">Nombre completo del hijo</th>
+                        <th scope="col">Fecha de nacimiento</th>
+                        <th scope="col">Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        
+                    </tr>
+                </tbody>
+            </table></div>
+            
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
